@@ -17,7 +17,7 @@ jobs:
       with:
         inlineScript: |
           az storage blob upload-batch \
-            --account-name <your_storage_account_name> \
+            --account-name swapro  \
             --destination '$web' \
             --source ./src \
             --overwrite
